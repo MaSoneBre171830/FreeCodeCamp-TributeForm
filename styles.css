@@ -1,0 +1,90 @@
+main {
+    margin: 14px;
+    background-color: rgb(67, 161, 213);
+    display: block;
+    padding: 1px;
+    border-radius: 10px
+  }
+  
+  body {
+    font-family: ariel, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    background-color: rgb(23, 62, 105)
+  }
+  
+  img {
+    width: 55%;
+    max-width: 100%;
+    border-radius: 25px;
+    padding-top: 1rem;
+    padding-bottom: 5px;
+    display: block;
+    height: auto;
+    margin: auto
+  }
+  
+  figure {
+    background-color: rgb(213, 176, 72);
+    border-radius: 15px
+  }
+  
+  figcaption {
+    inline-size: 55%;
+    margin: auto;
+    font-size: 0.9rem;
+    padding-bottom: 1rem
+  }
+  
+  ul {
+    text-align: left;
+    max-width: 550px;
+    margin: 25px auto;
+    list-style: none;
+    padding-left: 0;
+    color: white;
+    
+    
+  }
+  
+  #headline {
+    margin: 50px;
+  }
+  
+  li {
+    margin: 20px;
+    
+  }
+  
+  li::before {
+    content: "•";
+    font-size: 30px;
+    color:  rgb(213, 176, 72)
+  }
+  
+  blockquete {
+      font-style: italic;
+      max-width: 545px;
+      margin: 0 auto 50px auto;
+      text-align: left;
+      display: block;
+      color: white
+  }
+  
+  p {
+    color: white
+  }
+  
+  cite {
+    color: black
+  }
+  
+  a{
+    color: rgb(23, 62, 105)
+  }
+  
+  a:hover {
+    color: rgb(213, 176, 72)
+  }
+  
+  
